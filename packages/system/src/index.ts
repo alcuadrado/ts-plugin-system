@@ -1,0 +1,1 @@
+console.log("This is a cli tool that has some plugins");

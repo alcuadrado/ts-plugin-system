@@ -1,0 +1,8 @@
+{
+  "name": "ts-plugin-system",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}

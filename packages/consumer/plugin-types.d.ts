@@ -4,3 +4,4 @@
 // This file loads those type extensions.
 
 /// <reference types="plugin" />
+/// <reference types="plugin2" />

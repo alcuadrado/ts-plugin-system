@@ -1,11 +1,12 @@
 # Example TS based plugin system
 
-This project contains three npm packages that show how a Node.js plugin system
+This project contains 4 npm packages that show how a Node.js plugin system
 can use TS, while also letting plugins extend the application types.
 
 * `packages/application` is the main package, which defines some types
 * `packages/plugin` is a plugin that extends some of the application's types
-* `packages/consumer` is a package that consumes the application and the plugin, but doesn't directly require the plugin
+* `packages/plugin2` is another plugin that depends on `packages/plugin2`. It uses it internally. This plugin also extends the application's types.
+* `packages/consumer` is a package that consumes the application and the plugins, but doesn't directly require the plugins.
 
 The most interesting bits are:
 * How the `plugin` overrides the types.
@@ -18,6 +19,8 @@ yarn
 cd packages/application
 yarn build
 cd ../plugin
+yarn build
+cd ../plugin2
 yarn build
 cd ../consumer
 yarn build

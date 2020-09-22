@@ -1,13 +1,13 @@
 {
-  "name": "system",
+  "name": "application",
   "version": "1.0.0",
   "main": "index.js",
-  "types": "index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.0.2"
   },
   "scripts": {
-    "build": "tsc -p src/tsconfig.json"
+    "build": "tsc -p src/tsconfig.json",
+    "clean": "rm -rf *.js *.map *.d.ts types"
   }
 }

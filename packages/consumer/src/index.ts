@@ -1,1 +1,1 @@
-console.log("This file sets up the system with the plugin, can import them");
+console.log("This file sets up the system with the plugin. The plugin isn't required, but loaded by the application");

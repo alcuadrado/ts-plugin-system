@@ -7,6 +7,10 @@ can use TS, while also letting plugins extend the application types.
 * `packages/plugin` is a plugin that extends some of the application's types
 * `packages/consumer` is a package that consumes the application and the plugin, but doesn't directly require the plugin
 
+The most interesting bits are:
+* How the `plugin` overrides the types.
+* How the `consumer` registers this types extensions whithout doing a `require`/`import` to the `plugin`.
+
 ## How to run it
 
 ```sh

@@ -1,3 +1,5 @@
+/// <reference types="plugin" />
+
 // Importing this is necessary
 import { Config } from "application/types/config";
 

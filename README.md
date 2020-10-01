@@ -16,14 +16,7 @@ The most interesting bits are:
 
 ```sh
 yarn
-cd packages/application
-yarn build
-cd ../plugin
-yarn build
-cd ../plugin2
-yarn build
-cd ../consumer
-yarn build
+yarn wsrun --serial build
 ```
 
 Look at the file `packages/consumer/src/other.ts`

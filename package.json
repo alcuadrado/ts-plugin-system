@@ -4,5 +4,8 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "wsrun": "^5.2.2"
+  }
 }

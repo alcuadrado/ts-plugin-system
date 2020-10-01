@@ -15,6 +15,6 @@
     "./src"
   ],
   "files": [
-    "./plugin-types.d.ts"
+    "./config.ts"
   ]
 }
